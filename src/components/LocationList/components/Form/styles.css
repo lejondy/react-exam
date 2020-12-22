@@ -1,0 +1,36 @@
+.form-control {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-control label {
+  display: inline-block;
+  width: 7em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+textarea {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+}
+
+.form-btn-control {
+  margin-top: 14px;
+}
+
+.helper-text {
+  margin: 10px 0;
+  color: rgb(211, 12, 12);
+}
